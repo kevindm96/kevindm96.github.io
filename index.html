@@ -8,7 +8,14 @@
     <style type="text/css">code{white-space: pre;}</style>
   </head>
   <body>
-    <script>window.location.replace("http://www.w3schools.com")</script>
+    Mi IP es: <strong id="ipId"></strong>
+    <script>
+      function get_ip(obj){
+            document.getElementById('ipId').innerHTML = obj.ip;
+        }
+      //window.location.replace("http://www.w3schools.com")
+    </script>
+    
     <!--
     <h2>Enlaces de @KevinDM96</h1>
     <hr/>
